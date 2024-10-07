@@ -11,7 +11,6 @@ import org.junit.jupiter.api.Test;
 class ArrayAndHashTest {
   ArrayAndHashSolution solution = new ArrayAndHashSolution();
 
-  // file:///home/zawarudo/Desktop/LeetCodeTruong/app/build/reports/tests/test/index.html
   // 217
   @Test
   void containDuplicateTest() {
