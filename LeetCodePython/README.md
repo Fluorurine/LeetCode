@@ -1,4 +1,4 @@
-##### Hello from Truong
+## How to set up with Python
 
 https://neetcode.io/roadmap
 This is the project to propose my solution to LeetCode problems written in Python.
