@@ -1,6 +1,8 @@
 ## How to set up with Python
 
-### <code style="color: cyan;">Requirement</code>
+### <span style="color: cyan;">Requirement</span>
+
+---
 
 - **Python 3.12** (Any Python 3 version can be used as this project only use basic syntax)
 - **venv** for virtual enviroment (You doesn't need this if you install all libary globally)
@@ -9,9 +11,11 @@
 
 ### Setup
 
-💡 **Noitce:** <code style="color: yellow;">Do those step at this 'LeetCodePython' directory</code>
+💡 **Noitce:** <span style="color: yellow;">Do those step at this 'LeetCodePython' directory</span>
 
-#### <code style="color: cyan;">Create dev virtual enviroment and activate it (ignore these step if you using Python globally)</code>
+#### <span style="color: cyan;">Create dev virtual enviroment and activate it (ignore these step if you using Python globally)</span>
+
+---
 
 ```bash
 pip install virtualenv
@@ -27,7 +31,9 @@ python3 -m venv .venv
 
 This folder is ignore when commit, when you replicate this project on your system, please create another `.venv` folder in this directory for your own use.
 
-#### <code style="color: cyan;">Acitivate virtual enviroment</code>
+#### <span style="color: cyan;">Acitivate virtual enviroment</span>
+
+---
 
 As Windows and Linux-like create different `.venv` directory structureL
 
@@ -49,7 +55,9 @@ To deactivate virtual enviroment, simply:
 deactivate
 ```
 
-#### <code style="color: cyan;">Project structure</code>
+#### <span style="color: cyan;">Project structure</span>
+
+---
 
 ```ASCII
 LeetCodePython/
@@ -58,7 +66,9 @@ LeetCodePython/
 └── test (Import those Soulution class to perform test with pytest module)
 ```
 
-#### <code style="color: cyan;">From new solution to test</code>
+#### <span style="color: cyan;">From new solution to test</span>
+
+---
 
 - Activate your virtual Python enviroment. (If you have)
 - Install the Python package from requirement.txt (pytest) - you can always update to latest version:
@@ -70,7 +80,6 @@ LeetCodePython/
 
   ```bash
   black .
-
   ```
 
 - Add the test as the assert function in pytest. Few things in mind:
