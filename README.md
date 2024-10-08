@@ -1,19 +1,24 @@
-This is the LeetCode Solution that I do in multiple Language. Include Testing.
+## This is a project aims sloving **Leetcode** problems in multiple programming languages with testing included.
 
-##### Python
+---
 
-Group of Solution is in src folder.
+---
 
-<!-- TODO: Update Image for project -->
+### Installation
 
-To begin, this machine use Python 3.12 LTS. Just activate virtual enviroment then install the requirement.
-The src dir contain solution to group of problems. Using "pytest" to run the test available in test dir or write custom test.
+#### Window (Http)
 
-##### Java
+```bash
+git clone https://github.com/Fluorurine/LeetCode.git
+```
 
-The ideal from Python then convert to Java.
-Using gradle as package manage for project. Using Junit for testing. Just use gradlew run to run the test class.
+#### Linux (SSH)
 
-##### Go
+```bash
+git clone git@github.com:Fluorurine/LeetCode.git
 
-Still learning.
+```
+
+For reference to a specific language setup, please look inside corresponding directory.
+
+**Currently availabe:** Python, Java, Go
