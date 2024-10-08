@@ -9,11 +9,9 @@
 - **pytest** : For testing the solution
 - **blackformatter**: Linting and codeformmater stuff
 
-### Setup
-
 💡 **Noitce:** <span style="color: yellow;">Do those step at this 'LeetCodePython' directory</span>
 
-#### <span style="color: cyan;">Create dev virtual enviroment and activate it (ignore these step if you using Python globally)</span>
+### <span style="color: cyan;">Create dev virtual enviroment and activate it (ignore these step if you using Python globally)</span>
 
 ---
 
@@ -31,7 +29,7 @@ python3 -m venv .venv
 
 This folder is ignore when commit, when you replicate this project on your system, please create another `.venv` folder in this directory for your own use.
 
-#### <span style="color: cyan;">Acitivate virtual enviroment</span>
+### <span style="color: cyan;">Acitivate virtual enviroment</span>
 
 ---
 
@@ -55,7 +53,7 @@ To deactivate virtual enviroment, simply:
 deactivate
 ```
 
-#### <span style="color: cyan;">Project structure</span>
+### <span style="color: cyan;">Project structure</span>
 
 ---
 
@@ -66,7 +64,7 @@ LeetCodePython/
 └── test (Import those Soulution class to perform test with pytest module)
 ```
 
-#### <span style="color: cyan;">From new solution to test</span>
+### <span style="color: cyan;">From new solution to test</span>
 
 ---
 
