@@ -1,0 +1,5 @@
+- Create new project download Gradle from original website. Link to the binary file from project (or update from gradle wrapper https://gradle.org/install/ )
+- If you use Vscode please use Extension Pack for Java and Gradle for java in VSCode marketspace
+- Include Spotless
+- Change entry point in plugin application
+- Test with Junit (mind the surfix and class or use annotations)
