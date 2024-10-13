@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (uncomment to include)
+# vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Environment variable files
+.env
+
+# Ignore any other files that are not needed in version control
+*.log

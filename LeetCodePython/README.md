@@ -4,6 +4,8 @@
 
 ---
 
+All of the usually the latest version unless specify futher.
+
 - **Python 3.12** (Any Python 3 version can be used as this project only use basic syntax)
 - **venv** for virtual enviroment (You doesn't need this if you install all libary globally)
 - **pytest** : For testing the solution
