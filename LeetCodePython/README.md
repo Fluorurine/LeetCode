@@ -70,13 +70,13 @@ LeetCodePython/
 
 ---
 
-- Activate your virtual Python enviroment. (If you have)
+- Activate your virtual Python enviroment. (If you use in VScode remember to change your Python interperter to your virtual enviroment)
 - Install the Python package from requirement.txt (pytest) - you can always update to latest version:
   ```bash
   pip install -r requirements.txt
   ```
 - Add new Solutions function (for a problems) to solutions class. (for following steps just see the file class to see how it work)
-- Format with **_Python Black Formmater_**
+- Format with **_Python Black Formmater_** (VSCodeExtension Pylance and ErrorLens)
 
   ```bash
   black .
