@@ -45,7 +45,7 @@ Clone the project, cd into LeetCodeJava then run the following to init gradle & 
 
 ```bash
 ./gradlew (Linux)
-./gradlew.bat (Windows)
+.\gradlew.bat (Windows)
 ```
 
 ## Usage & Explain
@@ -94,5 +94,7 @@ for formatting run:
 ./gradlew spotlessApply
 
 ```
+
+In our editor, using space: 2 and tab = 4 space (spotless will apply 4 when we format)
 
 [here is document link](https://github.com/diffplug/spotless/blob/main/plugin-gradle/README.md)

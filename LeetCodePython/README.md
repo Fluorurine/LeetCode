@@ -43,6 +43,8 @@ As Windows and Linux-like create different `.venv` directory structureL
 .venv\Scripts\activate
 ```
 
+(Check in window with `where python`)
+
 **Linux**
 
 ```bash

@@ -1,7 +1,9 @@
 """
 This file contains the test cases for the array and hash problems
 """
+
 import pytest
+
 # -----------------------------------
 toogle_test: bool = True
 # -----------------------------------
@@ -10,6 +12,7 @@ from array_and_hash_problem import SolutionClass
 
 if toogle_test:
     test_instance = SolutionClass()
+
 
 def test_contain_duplicate():
     """
@@ -47,23 +50,48 @@ def test_two_sum():
         ], "Test case 3 in two sum failed"
 
 
+def test_group_anagrams():
+    """
+    Generate test for group anagrams problem
+    """
+    if toogle_test:
+        assert test_instance.group_anagrams(
+            ["eat", "tea", "tan", "ate", "nat", "bat"]
+        ) == [
+            ["eat", "tea", "ate"],
+            ["tan", "nat"],
+            ["bat"],
+        ], "Test case 1 in group anagrams failed"
+
+        assert test_instance.group_anagrams([""]) == [
+            [""]
+        ], "Test case 2 in group anagrams failed"
+        assert test_instance.group_anagrams(["a"]) == [
+            ["a"]
+        ], "Test case 3 in group anagrams failed"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def test_top_k_frequent():
+    """
+    Generate test for top k frequent problem
+    """
+    if toogle_test:
+        assert test_instance.top_k_frequent([1, 1, 1, 2, 2, 3], 2) == [
+            1,
+            2,
+        ], "Test case 1 in top k frequent failed"
+        assert test_instance.top_k_frequent([1], 1) == [
+            1
+        ], "Test case 2 in top k frequent failed"
+        assert test_instance.top_k_frequent([1, 2, 2, 3, 3, 3], 2) in (
+            [2, 3],
+            [3, 2],
+        ), "Test case 3 in top k frequent failed"
+        assert test_instance.top_k_frequent([1, 2, 2, 3, 3, 3], 3) == [
+            3,
+            2,
+            1,
+        ], "Test case 4 in top k frequent failed"
 
 
 # import sys
